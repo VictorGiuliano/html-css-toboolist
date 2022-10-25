@@ -15,12 +15,19 @@
     height: 100%;
     vertical-align:middle;
 }
+#foglio{
+    background-color: white;
+    margin: 25px 250px;
+    padding:8px;
+    height: 800px;
+    border-radius: 8px;
+}
 /* Generals */
 h1{
     display: inline;
-    vertical-align:50%;
-    
-}
+    vertical-align:45%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 body{
     background-color: darkgrey;
 }
