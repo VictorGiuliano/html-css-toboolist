@@ -11,15 +11,11 @@
     height: 100%;
     padding:0;
 }
-.logo{
-    height: 100%;
-    vertical-align:middle;
-}
 #foglio{
     background-color: white;
     margin: 25px 250px;
     padding: 20px 50px;
-    height: 1000px;
+    height: 750px;
     border-radius: 8px;
 }
 .button{
@@ -37,18 +33,66 @@
     font-size: 10px 25px;
 }
 #hr{
-background-color: darkgray;
-height: 5px;
+    background-color: darkgray;
+    height: 5px;
+    border:none;
+    margin:none;
+    padding:none;
+}
+.rettangolo{
+color:white;
+text-align: center;
 border:none;
-margin:none;
-padding:none;
+width: 80px;
+height: 30px;
+padding:5px;
+margin: 10px;
+border-radius: 20px;
+display: inline-block;
+vertical-align:middle;
+}
+.blue{
+    background-color: rgb(2, 204, 255);
+}
+.viola{
+    background-color: blueviolet;
+}
+.green{
+    background-color: darkgreen;
+}
+.orange{
+    background-color: coral;
+}
+.rosino{
+    background-color: rgb(250, 159, 174);
+}
+.cerchio{
+    height:21px;
+    width:20px;
+    text-align:center;
+    margin:none;
+    padding: none;
+    border-radius: 50%;
+    display: inline-block;
+}
+.testo{
+     display: inline-block;
+     height: 30px;
+     margin:5px;
+     vertical-align:middle;
+}
+.bordi_verdi{
+    border:solid green 2px;
+}
+.bordi_rossi{
+border:solid red 2px;
 }
 /* Generals */
 h1{
     display: inline;
     vertical-align:45%;
   }
-#type_text,h1,h3,p{
+#type_text,h1,h3,.testo{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
@@ -59,5 +103,8 @@ hr{
     border-width: 1px;
 }
 h3{
-    margin:50px 0px;
+    margin:30px 1px 20px 1px;
+}
+ul{
+    list-style-type: none;
 }
