@@ -30,8 +30,8 @@ margin: 0 auto;
 .button{
     margin:5px 1px;
     border: 1px solid transparent;
-    padding:8px 10px;
-    border-radius: 8px;
+    padding:5px 10px;
+    border-radius: 5px;
 }
 #first_button{
     background-color: #1E90FF;
@@ -44,13 +44,7 @@ margin: 0 auto;
     color:grey;
     font-size: 10px 25px;
 }
-#hr{
-    background-color: darkgray;
-    height: 5px;
-    border:none;
-    margin:none;
-    padding:none;
-}
+
 .rettangolo{
 color:white;
 text-align: center;
