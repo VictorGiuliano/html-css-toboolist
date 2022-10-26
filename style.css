@@ -10,25 +10,37 @@
     background-color: white;
     height: 100%;
     padding:0;
+    margin-bottom: 30px;
 }
-#foglio{
+.quadro{
+width: 50%;
+margin: 0 auto;
+}
+.foglio{
     background-color: white;
-    margin: 25px 250px;
-    padding: 20px 50px;
-    height: 750px;
     border-radius: 8px;
+}
+.foglio_header{
+    border-bottom: 2px solid grey;
+    padding: 10px 30px;
+}
+.foglio_body{
+    padding:10px 30px;
 }
 .button{
     margin:5px 1px;
+    border: 1px solid transparent;
     padding:8px 10px;
     border-radius: 8px;
 }
 #first_button{
-    background-color: #1E90FF	;
+    background-color: #1E90FF;
+    border-color:#1E90FF;
     color: white;
 }
 #second_button{
     background-color: white;
+    border-color:grey;
     color:grey;
     font-size: 10px 25px;
 }
