@@ -19,6 +19,7 @@ margin: 0 auto;
 .foglio{
     background-color: white;
     border-radius: 8px;
+    margin-bottom:50px;
 }
 .foglio_header{
     border-bottom: 2px solid grey;
@@ -47,72 +48,71 @@ margin: 0 auto;
 
 .rettangolo{
 color:white;
+font-size: 10px;
 text-align: center;
-border:none;
-width: 80px;
-height: 30px;
-padding:5px;
-margin: 10px;
-border-radius: 20px;
-display: inline-block;
-vertical-align:middle;
+vertical-align:none;
+margin-left: 2px;
+padding:4px 10px;
+border-radius: 10px;
+line-height: 15px;
+}
+
+.caratteristica{
+height: 40px;
+line-height: 40px;
 }
 .blue{
-    background-color: rgb(2, 204, 255);
+    background-color: #45abea;
 }
 .viola{
-    background-color: blueviolet;
+    background-color: #9c72e4;
 }
 .green{
-    background-color: darkgreen;
+    background-color: #64c0a9;
 }
 .orange{
-    background-color: coral;
+    background-color: #f29e33;
 }
 .rosino{
-    background-color: rgb(250, 159, 174);
+    background-color: #d863a1;
 }
 .light_green{
-    background-color: rgb(15, 185, 15);
+    background-color: #b0c926;
 }
 .cerchio{
-    height:21px;
-    width:20px;
+    height:14px;
+    width:14px;
+    font-size: 10px;
+    line-height: 14px;
+    vertical-align:middle;
     text-align:center;
-    margin:none;
-    padding: none;
     border-radius: 50%;
     display: inline-block;
 }
-.testo{
-     display: inline-block;
-     height: 30px;
-     margin:5px;
-     vertical-align:middle;
+.testo_lista{
+    vertical-align:middle;
 }
-.bordi_verdi{
-    border:solid green 2px;
+.bordi_verdi{ 
+    border:solid green 1px;
+    color:green;
 }
 .bordi_rossi{
-border:solid red 2px;
+border:solid red 1px;
+color: red;
 }
 /* Generals */
 h1{
     display: inline;
     vertical-align:45%;
   }
-#type_text,h1,h3,.testo{
+#type_text,h1,h3,.testo,.rettangolo{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: darkgrey;
 }
-
-hr{
-    border-width: 1px;
-}
 h3{
-    margin:30px 1px 20px 1px;
+    margin:30px 1px 1px;
 }
 ul{
     list-style-type: none;
